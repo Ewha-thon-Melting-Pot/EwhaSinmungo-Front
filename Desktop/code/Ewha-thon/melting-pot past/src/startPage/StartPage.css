@@ -1,0 +1,26 @@
+.state-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 전체 화면 높이 */
+}
+
+.placeholder-box {
+  width: 200px; /* 가정된 너비 */
+  height: 200px; /* 가정된 높이 */
+  background-color: #c4c4c4; /* 그레이 컬러 */
+  margin-bottom: 20px; /* 박스와 텍스트 사이의 마진 */
+}
+
+.call-to-action {
+  margin-bottom: 10px; /* 텍스트들 사이의 마진 */
+  font-size: 20px; /* 텍스트 크기 */
+  text-align: center; /* 가운데 정렬 */
+}
+
+.hashtag {
+  font-size: 40px; /* 텍스트 크기 */
+  margin-top: 10px;
+  //color: blue; /* 블루 컬러 */
+}

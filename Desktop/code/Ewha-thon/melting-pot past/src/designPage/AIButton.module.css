@@ -1,0 +1,18 @@
+.fab {
+  position: fixed; /* 화면에 고정 */
+  left: 20px; /* 왼쪽에서 20px 떨어진 곳에 위치 */
+  bottom: 20px; /* 하단에서 20px 떨어진 곳에 위치 */
+  background-color: #007bff; /* 파란색 배경 */
+  color: white; /* 흰색 텍스트 */
+  border: none; /* 테두리 없음 */
+  border-radius: 50%; /* 원형 모양 */
+  width: 56px; /* 너비 56px */
+  height: 56px; /* 높이 56px */
+  font-size: 15px; /* 폰트 크기 24px */
+  cursor: pointer; /* 커서 포인터 모양 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  display: flex; /* flex 박스 모델 사용 */
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+  z-index: 1000; /* 다른 요소들 위에 오도록 z-index 설정 */
+}

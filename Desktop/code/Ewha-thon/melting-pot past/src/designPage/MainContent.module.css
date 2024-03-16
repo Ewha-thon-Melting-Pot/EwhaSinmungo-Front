@@ -1,0 +1,31 @@
+.mainContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-gap: 16px;
+  padding: 16px;
+}
+
+.productCard {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 250px;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+}
+
+.productTitle {
+  padding: 8px;
+  font-size: 1em;
+  color: #333;
+}
+
+.productPrice {
+  padding: 8px;
+  color: #666;
+  font-weight: bold;
+}
